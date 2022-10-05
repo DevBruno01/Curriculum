@@ -147,17 +147,17 @@ h6 {
     font-size: 1em;
 }
 
-.linguagens li {
+.linguas li {
     flex-direction: column;
 }
 
-.linguagens li span {
+.linguas li span {
     color: #333;
     font-size: 16px;
     font-weight: 500;
 }
 
-.linguagens .percent {
+.linguas .percent {
     position: relative;
     width: 100%;
     background: #e3e3e3;
@@ -168,7 +168,7 @@ h6 {
     overflow: hidden;
 }
 
-.linguagens .percent div{
+.linguas .percent div {
     position: absolute;
     top: 0;
     left: 0;
@@ -176,3 +176,32 @@ h6 {
     background: #3590d2;
 }
 
+.container .contentCaixa ul.interesses {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .contentCaixa ul.interesses li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.container .contentCaixa ul.interesses li .icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #3590d2;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentCaixa ul.interesses li .icon ion-icon {
+    color: #fff;
+    margin-right: 0;
+}

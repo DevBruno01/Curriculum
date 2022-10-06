@@ -205,3 +205,52 @@ h6 {
     color: #fff;
     margin-right: 0;
 }
+
+p {
+    font-style: normal;
+}
+
+.ladoDireito {
+    padding-left: 40px;
+}
+
+.sobre .caixa {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.sobre .caixa .data_curso {
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+
+.sobre .caixa .data_curso h5 {
+    color: #333;
+    font-weight: 600;
+}
+
+.sobre .caixa .data_curso h5:nth-child(1) {
+    color: #3590d2;
+}
+
+.sobre .caixa .texto h4 {
+    color: #3590d2;
+    font-size: 16px;
+    margin: 0;
+}
+
+.sobre .skills .caixa {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre .skills .caixa h4 {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
